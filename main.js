@@ -16,7 +16,7 @@ $(function() {
 
 	$.ajax({
 		type: 'GET', 
-		url: 'http://rest.learncode.academy/api/alina/friends',
+		url: 'http://rest.learncode.academy/api/cafe/drinks',
 		success: function(orders) { 
 			$.each(orders, function(i, order) { 
 				addOrder(order); 
@@ -39,7 +39,7 @@ $(function() {
 
 		$.ajax({
 			type: 'POST',
-			url: 'http://rest.learncode.academy/api/alina/friends',
+			url: 'http://rest.learncode.academy/api/cafe/drinks',
 			data: order, 
 			success: function(newOrder) { 
 				addOrder(newOrder);
@@ -60,7 +60,7 @@ $(function() {
 		var $li = $(this).closest('li'); 
 		$.ajax({
 			type: 'DELETE',
-			url: 'http://rest.learncode.academy/api/alina/friends/' + $(this).attr('data-id'),
+			url: 'http://rest.learncode.academy/api/cafe/drinks/' + $(this).attr('data-id'),
 			success: function() {
 				$li.fadeOut(300, function(){
 					$('this').remove();
@@ -101,7 +101,7 @@ $(function() {
 
 		$.ajax({
 			type: 'PUT',
-			url: 'http://rest.learncode.academy/api/alina/friends/' + $li.attr('data-id'),
+			url: 'http://rest.learncode.academy/api/cafe/drinks/' + $li.attr('data-id'),
 			data: order,
 			success: function(newOrder) { 
 				$li.find('span.name').html(order.name);
