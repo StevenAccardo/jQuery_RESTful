@@ -4,7 +4,7 @@ $(function() {
 	var $name = $('#name');
 	var $drink = $('#drink'); 
 	var orderTemplate = $('#order-template').html();
-	var endpointURL = 'http://rest.learncode.academy/api/cafe/drinks'
+	var endpointURL = 'http://rest.learncode.academy/api/UglyCoyote/drinks'
 
 	function addOrder(order) {
 		$orders.append(Mustache.render(orderTemplate, order));

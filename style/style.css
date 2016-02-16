@@ -1,0 +1,158 @@
+body {
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-image: url('../../../Images/drinks.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+a {
+	color: #00B7FF;
+}
+
+.navbar {
+	margin: auto;
+	border-radius: 0;
+}
+
+.navbar-default {
+	background: red;
+	background: -webkit-linear-gradient(left, rgba(9, 255, 245, 0.4), rgba(255, 165, 0, 0.6), rgba(255, 192, 203, 0.8), rgb(167, 7, 0));
+	background: -o-linear-gradient(left, rgba(9, 255, 245, 0.4), rgba(255, 165, 0, 0.6), rgba(255, 192, 203, 0.8), rgb(167, 7, 0));
+	background: -moz-linear-gradient(left, rgba(9, 255, 245, 0.4), rgba(255, 165, 0, 0.6), rgba(255, 192, 203, 0.8), rgb(167, 7, 0));
+	background: linear-gradient(left, rgba(9, 255, 245, 0.4), rgba(255, 165, 0, 0.6), rgba(255, 192, 203, 0.8), rgb(167, 7, 0));
+	border: none;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: black;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus,  .navbar-default .navbar-nav > .open > a:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	background: rgba(255, 192, 203, 0.6);
+}
+
+ul.dropdown-menu > li > a:hover {
+  background-color: transparent;
+}
+
+
+
+ul.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+	background-color: transparent;
+	color: black;
+}
+
+#container {
+	margin: auto;
+	margin-top: 3%;
+	width: 700px;
+	overflow: hidden;
+	padding: 0 2%;
+	border: solid black 10px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1, h2 {
+	font-weight: 900;
+	background: rgba(239, 239, 239, 0.4);
+	padding: 2%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#explain {
+	width: 700px;
+	margin: auto;
+	font-weight: 900;
+	background: rgba(239, 239, 239, 0.4);
+	padding: 2%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 4.0em;
+}
+
+h2 {
+	font-size: 3.0em;
+}
+
+ul#orders {
+	padding: 0;
+	float: right;
+	width: 50%;
+	margin: 0;
+}
+
+ul#orders li{
+	list-style: none;
+	background-color: rgba(9, 255, 245, 0.8);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+
+ul li .edit {
+	display: none;
+}
+
+ul li.edit .edit{
+	display: initial;
+}
+
+ul li.edit .noedit{
+	display: none;
+}
+
+button.remove {
+	float: right;
+}
+
+div#orderwindow {
+	background-color: rgba(80, 255, 0, 0.8);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2%;
+	width: 40%;
+	float: left;
+}
+
+button, input {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+input {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 1%;
+}
